@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Next-Gen CSS Motion Blur Effects</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎨 Next-Gen CSS Motion Blur Effects</h1>
+    <p>A Proposal for Advanced Visual Control in Web Design</p>
+  </header>
+
+  <section>
+    <h2>✨ Introduction</h2>
+    <p>The <code>motion-blur()</code> property offers directional and dynamic blur effects for next-level animations and UI transitions — beyond the traditional Gaussian blur.</p>
+  </section>
+
+  <section>
+    <h2>🧪 Why It Matters</h2>
+    <ul>
+      <li>Simulated movement and speed</li>
+      <li>Enhanced UI transitions</li>
+      <li>Depth-of-field and layered motion</li>
+      <li>Creative trails and visual storytelling</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🔧 Syntax</h2>
+    <pre><code>motion-blur: &lt;type&gt;(&lt;amount&gt;, &lt;direction&gt;);
+&lt;type&gt;: linear, radial, or progressive
+&lt;amount&gt;: Intensity in px (e.g., 12px)
+&lt;direction&gt;: to right | to bottom | from center | etc.</code></pre>
+  </section>
+
+  <section>
+    <h2>🌟 Types & Examples</h2>
+
+    <h3>1️⃣ motion-blur: linear()</h3>
+    <p>Effect: Applies blur consistently in one direction. Useful for horizontal/vertical movement.</p>
+    <pre><code>.element {
+  motion-blur: linear(12px, to right);
+}</code></pre>
+    <div class="linear-demo"></div>
+
+    <h3>2️⃣ motion-blur: radial()</h3>
+    <p>Effect: Radiates from a center point. Mimics explosion or focus effect.</p>
+    <pre><code>.element {
+  motion-blur: radial(15px, from center);
+}</code></pre>
+    <div class="radial-demo"></div>
+
+    <h3>3️⃣ motion-blur: progressive()</h3>
+    <p>Effect: Trailing blur that increases with movement. Good for scroll-based effects.</p>
+    <pre><code>.element {
+  motion-blur: progressive(10px, to bottom);
+}</code></pre>
+    <div class="progressive-demo"></div>
+  </section>
+
+  <section>
+    <h2>💡 Pro Tips</h2>
+    <ul>
+      <li>Combine with <code>transform</code>, <code>transition</code>, and <code>filter</code> for rich animations.</li>
+      <li>Use responsibly to maintain performance.</li>
+      <li>Check CSSWG status for browser support.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🔗 Resources</h2>
+    <ul>
+      <li><a href="#">CSSWG Draft: motion-blur()</a></li>
+      <li><a href="#">GitHub Proposal Discussion</a></li>
+      <li><a href="#">CodePen Demo</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>📎 Download this guide as PDF • Share • Embed in portfolio</p>
+  </footer>
+</body>
+</html>
