@@ -4,5 +4,6 @@ This demo explores a proposed `motion-blur()` CSS property for simulating moveme
 
 ## 🔧 Motion Blur Syntax
 
+
 ```css
 motion-blur: <type>(<amount>, <direction>);
